@@ -1,0 +1,63 @@
+class NewClass {
+    void useme() {
+        System.out.println(" use me :");
+    }
+
+    int sub(int a, int b) {
+        return a - b;
+    }
+
+     void name() {
+        System.out.println("rudhan");
+
+    }
+
+
+    }
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println(" hi buddy ");
+
+        mthd1();
+        System.out.println( mthd2(2,2,4,5));
+        String name = new String("creating string in main class");
+         int number = 17;
+
+        System.out.println(number);
+
+
+        System.out.println(name.toUpperCase());
+
+        // new class obj
+
+        NewClass object1 = new NewClass();
+      object1.useme();
+     int c= object1.sub(8,9);
+        System.out.println(object1.sub(8,9));
+        System.out.println(c);
+
+object1.name();
+
+
+
+
+
+
+
+    }
+    static void mthd1 ()
+    {
+
+        System.out.println(" this is method one ");
+
+    }
+static int mthd2(int a,int b,int c,int d){
+
+        return a+b-c*d;
+
+}
+
+}
